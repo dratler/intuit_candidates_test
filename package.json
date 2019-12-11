@@ -1,0 +1,24 @@
+{
+  "name": "intuit_senior_test",
+  "version": "1.0.0",
+  "description": "This is Intuit API and Web page used for testing TAP candidates ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-start":"nodemon src/server/index.js"
+  },
+  "keywords": [
+    "test",
+    "candidates",
+    "Intuit"
+  ],
+  "author": "dratler",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  }
+}
