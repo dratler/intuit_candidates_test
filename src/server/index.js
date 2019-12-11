@@ -4,7 +4,10 @@ const port = process.env.PORT || "3000";
 
 app.get('/', function (req, res) {
   res.json({
-    status: 'Working'
+    status: 'Working',
+    api:{
+      transctions:'https://fakebanky.herokuapp.com/transctions'
+    }
   });
 });
 
