@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-start":"nodemon src/server/index.js"
+    "dev": "nodemon src/server/index.js"
   },
   "keywords": [
     "test",
@@ -16,7 +16,9 @@
   "author": "dratler",
   "license": "MIT",
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "hbs": "^4.0.6",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "2.0.2"
