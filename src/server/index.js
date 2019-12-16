@@ -17,7 +17,7 @@ app.get('/',  function(req, res){
     pages:{
      main:{
        demo:'https://fakebanky.herokuapp.com/demo',
-       fakebank:'https://fakebanky.herokuapp.com/fackbank'
+       fakebank:'https://fakebanky.herokuapp.com/fakebank'
      }
     }
   });
