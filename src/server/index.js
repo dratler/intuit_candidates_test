@@ -8,7 +8,7 @@ const port = process.env.PORT || '3000';
 app.set('view engine','hbs');
 app.use(express.static(__dirname +'/public' ));
 
-app.get('/info',  function(req, res){
+app.get('/',  function(req, res){
   res.json({
     status: 'Working',
     api:{
