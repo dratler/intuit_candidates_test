@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
   res.json({
     status: 'Working',
     api: {
-      transctions: 'https://fakebanky.herokuapp.com/transctions'
+      transactions: 'https://fakebanky.herokuapp.com/transactions'
     },
     pages: {
       main: {
@@ -29,7 +29,7 @@ app.get('/transctions', function (req, res) {
           {
             account:'7b5092b8-73f1-471d-96d8-31b20dca913b',
             type:'PERSONAL',
-            transctions:[{
+            transactions:[{
               id: 21323424353,
               amount: 12.45,
               currency: "USD"
@@ -48,7 +48,7 @@ app.get('/transctions', function (req, res) {
           {
             account:'e53cbe01-542c-4e70-b1e5-60956af73f037b5092b8-73f1-471d-96d8-31b20dca913b',
             type:'BUSINESS',
-            transctions:[{
+            transactions:[{
               id: 789698,
               amount: 45888.787,
               currency: "USD"
