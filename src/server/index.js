@@ -23,7 +23,7 @@ app.get('/', function (req, res) {
   });
 });
 
-app.get('/transctions', function (req, res) {
+app.get('/transactions', function (req, res) {
       res.json({
         accounts: [
           {
