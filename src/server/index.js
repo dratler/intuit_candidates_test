@@ -75,6 +75,7 @@ app.get('/transactions', function (req, res) {
         );
     });
     app.get("/fruit/:fruit", (req, res) => {
+      let fruit = req.params.fruit;
         if ('banana'==fruit){
         res.json([
           [
