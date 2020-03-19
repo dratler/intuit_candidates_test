@@ -70,7 +70,9 @@ app.get('/transactions', function (req, res) {
       })
     });
     app.get("/fruit", (req, res) => {
-      res.json({' Choose wize "banana" or "strawberry"  '});
+      res.json(
+        {replay:' Choose wize "banana" or "strawberry"  '}
+        );
     });
     app.get("/fruit/:fruit", (req, res) => {
         if ('banana'==fruit){
