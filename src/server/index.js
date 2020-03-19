@@ -12,13 +12,14 @@ app.get('/', function (req, res) {
   res.json({
     status: 'Working',
     api: {
-      transactions: 'https://fakebanky.herokuapp.com/transactions'
+      transactions: 'https://fakebanky.herokuapp.com/transactions',
+      fruit:'https://fakebanky.herokuapp.com/fruit'
     },
     pages: {
       main: {
         demo: 'https://fakebanky.herokuapp.com/demo',
-        fakebank: 'https://fakebanky.herokuapp.com/fakebank',
-        fruit:'https://fakebanky.herokuapp.com/fruit'
+        fakebank: 'https://fakebanky.herokuapp.com/fakebank'
+       
       }
     }
   });
@@ -68,13 +69,11 @@ app.get('/transactions', function (req, res) {
         ]
       })
     });
-
+    app.get("/fruit", (req, res) => {
+      res.json({' Choose wize "banana" or "strawberry"  '});
+    });
     app.get("/fruit/:fruit", (req, res) => {
-      var fruit = request.params.fruit;
-      if(null == fruit && undefined == fruit ){
-        res.status = 401;
-        res.json('missing value');
-      } else if ('banana'==fruit){
+        if ('banana'==fruit){
         res.json([
           {
              "CaseID":1,
