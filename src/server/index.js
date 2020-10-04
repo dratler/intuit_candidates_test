@@ -85,8 +85,8 @@ app.get('/transactions', function (req, res) {
               Provider:6111,
               CREATED_ERROR_CODE:324,
               STATUS:"Closed",
-              TICKET_CREATION_DATE:"3/14/201916:30",
-              LAST_MODIFIED_DATE:"3/17/20193:41",
+              TICKET_CREATION_DATE:"3/14/2019 16:30",
+              LAST_MODIFIED_DATE:"3/17/2019 03:41",
               PRODUCT_NAME:"BLUE"
             },
             {
@@ -95,8 +95,8 @@ app.get('/transactions', function (req, res) {
               Provider:26241,
               CREATED_ERROR_CODE:0,
               STATUS:"Closed",
-              TICKET_CREATION_DATE:"3/4/20199:30",
-              LAST_MODIFIED_DATE:"3/5/20192:47",
+              TICKET_CREATION_DATE:"3/4/2019 09:30",
+              LAST_MODIFIED_DATE:"3/5/2019 02:47",
               PRODUCT_NAME:"BLUE"
             },
             {
@@ -105,8 +105,8 @@ app.get('/transactions', function (req, res) {
               Provider:1211,
               CREATED_ERROR_CODE:101,
               STATUS:"Closed",
-              TICKET_CREATION_DATE:"2/5/20190:30",
-              LAST_MODIFIED_DATE:"2/10/20191:52",
+              TICKET_CREATION_DATE:"2/5/2019 00:30",
+              LAST_MODIFIED_DATE:"2/10/2019 01:52",
               PRODUCT_NAME:"BLUE"
             },
             {
@@ -115,8 +115,8 @@ app.get('/transactions', function (req, res) {
               Provider:10416,
               CREATED_ERROR_CODE:101,
               STATUS:"Closed",
-              TICKET_CREATION_DATE:"1/31/20196:31",
-              LAST_MODIFIED_DATE:"2/3/20191:42",
+              TICKET_CREATION_DATE:"1/31/2019 06:31",
+              LAST_MODIFIED_DATE:"2/3/2019 11:42",
               PRODUCT_NAME:"BLUE"
             },
             {
@@ -125,8 +125,8 @@ app.get('/transactions', function (req, res) {
               Provider:11016,
               CREATED_ERROR_CODE:324,
               STATUS:"Closed",
-              TICKET_CREATION_DATE:"3/19/201915:30",
-              LAST_MODIFIED_DATE:"3/21/20198:54",
+              TICKET_CREATION_DATE:"3/19/2019 15:30",
+              LAST_MODIFIED_DATE:"3/21/2019 08:54",
               PRODUCT_NAME:"BLUE"
             },
             {
@@ -135,8 +135,8 @@ app.get('/transactions', function (req, res) {
               Provider:2811,
               CREATED_ERROR_CODE:108,
               STATUS:"Closed",
-              TICKET_CREATION_DATE:"3/21/20196:33",
-              LAST_MODIFIED_DATE:"3/21/201910:35",
+              TICKET_CREATION_DATE:"3/21/2019 06:33",
+              LAST_MODIFIED_DATE:"3/21/2019 10:35",
               PRODUCT_NAME:"BLUE"
             },
             {
@@ -145,8 +145,8 @@ app.get('/transactions', function (req, res) {
               Provider:12,
               CREATED_ERROR_CODE:101,
               STATUS:"Closed",
-              TICKET_CREATION_DATE:"3/21/20197:31",
-              LAST_MODIFIED_DATE:"3/21/201923:35",
+              TICKET_CREATION_DATE:"3/21/2019 07:31",
+              LAST_MODIFIED_DATE:"3/21/2019 23:35",
               PRODUCT_NAME:"BLUE"
             },
             {
@@ -155,8 +155,8 @@ app.get('/transactions', function (req, res) {
               Provider:10896,
               CREATED_ERROR_CODE:101,
               STATUS:"Closed",
-              TICKET_CREATION_DATE:"3/21/201914:32",
-              LAST_MODIFIED_DATE:"3/21/201916:35",
+              TICKET_CREATION_DATE:"3/21/2019 14:32",
+              LAST_MODIFIED_DATE:"3/21/2019 16:35",
               PRODUCT_NAME:"BLUE"
             },
             {
@@ -165,8 +165,8 @@ app.get('/transactions', function (req, res) {
               Provider:18121,
               CREATED_ERROR_CODE:195,
               STATUS:"Closed",
-              TICKET_CREATION_DATE:"3/4/201915:32",
-              LAST_MODIFIED_DATE:"3/4/201923:54",
+              TICKET_CREATION_DATE:"3/4/2019 15:32",
+              LAST_MODIFIED_DATE:"3/4/2019 23:54",
               PRODUCT_NAME:"BLUE"
             },
             {
@@ -175,8 +175,8 @@ app.get('/transactions', function (req, res) {
               Provider:11990,
               CREATED_ERROR_CODE:103,
               STATUS:"Open",
-              TICKET_CREATION_DATE:"1/28/201915:30",
-              LAST_MODIFIED_DATE:"1/29/20196:07",
+              TICKET_CREATION_DATE:"1/28/2019 15:30",
+              LAST_MODIFIED_DATE:"1/29/2019 06:07",
               PRODUCT_NAME:"BLUE"
             }
          ]
@@ -190,8 +190,8 @@ app.get('/transactions', function (req, res) {
             Provider:10001121,
             CREATED_ERROR_CODE:101,
             STATUS:"Closed",
-            TICKET_CREATION_DATE:"4/1/201917:25",
-            LAST_MODIFIED_DATE:"4/2/20198:00",
+            TICKET_CREATION_DATE:"4/1/2019 17:25",
+            LAST_MODIFIED_DATE:"4/2/2019 08:00",
             PRODUCT_NAME:"RED"
           },
           {
@@ -200,8 +200,8 @@ app.get('/transactions', function (req, res) {
             Provider:11196,
             CREATED_ERROR_CODE:108,
             STATUS:"Closed",
-            TICKET_CREATION_DATE:"3/22/201914:33",
-            LAST_MODIFIED_DATE:"3/23/201923:00",
+            TICKET_CREATION_DATE:"3/22/2019 14:33",
+            LAST_MODIFIED_DATE:"3/23/2019 23:00",
             PRODUCT_NAME:"GREEN"
           },
           {
@@ -210,8 +210,8 @@ app.get('/transactions', function (req, res) {
             Provider:6111,
             CREATED_ERROR_CODE:324,
             STATUS:"Closed",
-            TICKET_CREATION_DATE:"3/14/201916:30",
-            LAST_MODIFIED_DATE:"3/17/20193:41",
+            TICKET_CREATION_DATE:"3/14/2019 16:30",
+            LAST_MODIFIED_DATE:"3/17/2019 13:41",
             PRODUCT_NAME:"ORANGE"
           },
           {
@@ -220,8 +220,8 @@ app.get('/transactions', function (req, res) {
             Provider:11181,
             CREATED_ERROR_CODE:122,
             STATUS:"Closed",
-            TICKET_CREATION_DATE:"2/5/201917:32",
-            LAST_MODIFIED_DATE:"2/6/20191:06",
+            TICKET_CREATION_DATE:"2/5/2019 17:32",
+            LAST_MODIFIED_DATE:"2/6/2019 01:06",
             PRODUCT_NAME:"PINK"
           }
        ]);
